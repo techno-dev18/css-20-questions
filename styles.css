@@ -1,12 +1,15 @@
 * {
   box-sizing: border-box;
 }
+html {
+  font-size: 16px;
+}
 main {
   padding: 1rem;
 }
 /*Q1.Write CSS to:
 - Make all paragraph text **blue**- Set the paragraph background colour to **light grey** */
-p {
+#p1 {
   color: blue;
   background-color: lightgrey;
 }
@@ -153,10 +156,16 @@ span {
 }
 /* Q17.Create a parent div of `400px` width.
 Inside it:- Create a child div with `width: 50%` */
-
-
-
-
+.parent {
+  width: 400px;
+  /* height: 150px; */
+  background-color: rgb(217, 98, 98);
+}
+.child {
+  width: 50%;
+  /* height:80px; */
+  background-color: steelblue;
+}
 
 /* Q18.Create a div with:
 - `font-size: 20px`- `padding: 2em` */
@@ -165,16 +174,11 @@ Inside it:- Create a child div with `width: 50%` */
   padding: 2em;
 }
 
-
-
-
-
-
-
-
-
-
-
+/* Q19.Create a paragraph with:
+- `font-size: 2rem` */
+#p3{
+  font-size: 2rem;
+}
 /* Q20.Create a div:
 - Height: `300px`- Add a background image- Use `background-size: cover`- Center the image */
 /* .image{
@@ -184,7 +188,7 @@ Inside it:- Create a child div with `width: 50%` */
   background-position: center;   
 } */
 body {
-  background-image: url('https://placehold.co/600x400?text=PreGrad');
+  background-image: url('https://placehold.co/200x300?text=PreGrad');
   background-size: cover;       
   background-position: center;   
 }
